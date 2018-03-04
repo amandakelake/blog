@@ -43,7 +43,7 @@
 
 [面向对象总结（构造、原型、继承、封装）](https://github.com/amandakelake/blog/issues/3)
 
-[函数的内部属性和方法（arguments、callee](https://github.com/amandakelake/blog/issues/6)
+[函数的内部属性和方法（arguments、callee）](https://github.com/amandakelake/blog/issues/6)
 
 [执行上下文](https://github.com/amandakelake/blog/issues/11)
 
