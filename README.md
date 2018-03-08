@@ -8,6 +8,9 @@
 在此提前声明，如有侵犯著作权，通知我删除即可，另本账号下内容皆不商用。
 
 ## 框架类
+
+[React-Native 从零搭建App](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
+
 [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
 
 [【React】创建store过程   react+redux-saga+redux-persist](https://github.com/amandakelake/blog/issues/9)
