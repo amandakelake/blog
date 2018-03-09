@@ -9,7 +9,7 @@
 
 ## 框架类
 
-[React-setState源码分析]（https://github.com/amandakelake/blog/issues/29）
+[React-setState源码分析](https://github.com/amandakelake/blog/issues/29)
 
 [React-Native 从零搭建App(长文)  react-native-navigation+redux+redux-thunk+redux-saga+redux-persist+flow](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
