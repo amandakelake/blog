@@ -25,6 +25,8 @@
 
 [异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
 
+[异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
+
 [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
 [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
