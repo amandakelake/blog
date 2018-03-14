@@ -38,6 +38,8 @@
 
 ## JS基础
 
+[异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
+
 [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
 
 [You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
