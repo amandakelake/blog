@@ -1,7 +1,10 @@
 
 # personal blog
 
-## 框架类
+
+
+## 框架
+
 
 [React-setState源码分析](https://github.com/amandakelake/blog/issues/29)
 
@@ -13,27 +16,16 @@
 
 [Object.defineProperty() 和双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
-## Web与性能类
 
-[事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
-[GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
+## JS
 
-[cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
-
-[前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
-
-[Web缓存](https://github.com/amandakelake/blog/issues/15)
-
-[TCP概览](https://github.com/amandakelake/blog/issues/21)
-
-[前端主流跨域方法](https://github.com/amandakelake/blog/issues/17)
-
-## JS基础
 
 [异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
 
 [异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
+
+[事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
 [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
 
@@ -62,7 +54,24 @@
 [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
 
+## Web与性能
+
+
+[GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
+
+[cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
+
+[前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
+
+[Web缓存](https://github.com/amandakelake/blog/issues/15)
+
+[TCP概览](https://github.com/amandakelake/blog/issues/21)
+
+[前端主流跨域方法](https://github.com/amandakelake/blog/issues/17)
+
+
 ## HTML+CSS
+
 [# BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
 
 [三栏布局-七种实现](https://github.com/amandakelake/blog/issues/28)
