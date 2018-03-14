@@ -1,27 +1,20 @@
 
-
-个人理解，欢迎指正，内容不一定全都是面向小白的通俗教程
-准确来说：是我自己某个阶段的知识水平下的个人理解与记录
-
-可能会有部分代码、图片、内容来源于书籍、前辈们的blog或者其他地方，可以理解为转载
-
-在此提前声明，如有侵犯著作权，通知我删除即可，另本账号下内容皆不商用。
+# personal blog
 
 ## 框架类
 
 [React-setState源码分析](https://github.com/amandakelake/blog/issues/29)
 
-[React-Native 从零搭建App(长文)  react-native-navigation+redux+redux-thunk+redux-saga+redux-persist+flow](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
+[React-Native 从零搭建App(长文)](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
 [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
-
-[【React】创建store过程   react+redux-saga+redux-persist](https://github.com/amandakelake/blog/issues/9)
 
 [jQuery源码（封装思想）](https://github.com/amandakelake/blog/issues/12)
 
 [Object.defineProperty() 和双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
 ## Web与性能类
+
 [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
 [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
