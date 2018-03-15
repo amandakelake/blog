@@ -21,59 +21,59 @@
 ## JS
 
 
-[异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
+ * [异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
 
-[异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
+ * [异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
 
-[异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
+ * [异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
 
-[事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
+ * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
-[变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
+ * [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
 
-[You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
+ * [You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
 
-[同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
+ * [同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
 
-[this](https://github.com/amandakelake/blog/issues/5)
+ * [this](https://github.com/amandakelake/blog/issues/5)
 
-[面向对象总结（构造、原型、继承、封装）](https://github.com/amandakelake/blog/issues/3)
+ * [面向对象总结（构造、原型、继承、封装）](https://github.com/amandakelake/blog/issues/3)
 
-[函数的内部属性和方法（arguments、callee）](https://github.com/amandakelake/blog/issues/6)
+ * [函数的内部属性和方法（arguments、callee）](https://github.com/amandakelake/blog/issues/6)
 
-[执行上下文](https://github.com/amandakelake/blog/issues/11)
+ * [执行上下文](https://github.com/amandakelake/blog/issues/11)
 
-[JavaScript的参数传递(引用类型)](https://github.com/amandakelake/blog/issues/2)
+ * [JavaScript的参数传递(引用类型)](https://github.com/amandakelake/blog/issues/2)
 
-[map、forEach、filter 、reduce](https://github.com/amandakelake/blog/issues/19)
+ * [map、forEach、filter 、reduce](https://github.com/amandakelake/blog/issues/19)
 
-[call、apply、bind和类数组](https://github.com/amandakelake/blog/issues/16)
+ * [call、apply、bind和类数组](https://github.com/amandakelake/blog/issues/16)
 
-[Javascript五大排序算法-原生写法](https://github.com/amandakelake/blog/issues/4)
+ * [Javascript五大排序算法-原生写法](https://github.com/amandakelake/blog/issues/4)
 
-[一道综合面试题（原型、this、作用域、构造函数、运算符优先级）](https://github.com/amandakelake/blog/issues/10)
+ * [一道综合面试题（原型、this、作用域、构造函数、运算符优先级）](https://github.com/amandakelake/blog/issues/10)
 
-[ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
+ * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
 
 ## Web与性能
 
 
-[GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
+ * [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
 
-[cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
+ * [cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
 
-[前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
+ * [前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
 
-[Web缓存](https://github.com/amandakelake/blog/issues/15)
+ * [Web缓存](https://github.com/amandakelake/blog/issues/15)
 
-[TCP概览](https://github.com/amandakelake/blog/issues/21)
+ * [TCP概览](https://github.com/amandakelake/blog/issues/21)
 
-[前端主流跨域方法](https://github.com/amandakelake/blog/issues/17)
+ * [前端跨域（目前主流几大方法）](https://github.com/amandakelake/blog/issues/17)
 
 
 ## HTML+CSS
 
-[# BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
+ * [# BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
 
-[三栏布局-七种实现](https://github.com/amandakelake/blog/issues/28)
+ * [三栏布局-七种实现](https://github.com/amandakelake/blog/issues/28)
