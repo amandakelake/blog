@@ -6,7 +6,7 @@
 ## 框架
 
 
-  * [Redux-源码分析](https://github.com/amandakelake/blog/issues/33)
+  * [Redux-源码分析](https://github.com/amandakelake/blog/issues/33)
 
   * [React-setState源码分析](https://github.com/amandakelake/blog/issues/29)
 
