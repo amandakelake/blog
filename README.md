@@ -34,6 +34,8 @@
  * [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
 
  * [You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
+ 
+ * [深入理解JS的类型、值、类型转换](https://github.com/amandakelake/blog/issues/34)
 
  * [同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
 
