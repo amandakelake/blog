@@ -63,6 +63,8 @@
 ## Web与性能
 
 
+ * [深入了解HTTP/2的前世今生以及Web性能优化总结](https://github.com/amandakelake/blog/issues/35)
+
  * [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
 
  * [cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
