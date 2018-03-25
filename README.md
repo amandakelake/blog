@@ -48,6 +48,8 @@
  * [执行上下文](https://github.com/amandakelake/blog/issues/11)
  
  * [你真的了解instanceof吗？](https://github.com/amandakelake/blog/issues/36)
+ 
+ * [自己动手实现new](https://github.com/amandakelake/blog/issues/37)
 
  * [JavaScript的参数传递(引用类型)](https://github.com/amandakelake/blog/issues/2)
 
