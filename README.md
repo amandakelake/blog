@@ -18,8 +18,6 @@
   
   * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
-  * [Object.defineProperty() 和简易双向绑定原理 ](https://github.com/amandakelake/blog/issues/8)
-
 
 
 ## JS
