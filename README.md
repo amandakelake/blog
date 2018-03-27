@@ -16,7 +16,7 @@
 
   * [jQuery源码（封装思想）](https://github.com/amandakelake/blog/issues/12)
 
-  * [Object.defineProperty() 和双向绑定原理](https://github.com/amandakelake/blog/issues/8)
+  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
 
 
@@ -71,7 +71,7 @@
 
  * [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
 
- * [cookie实践（从搭建服务器到cookie操作全流程](https://github.com/amandakelake/blog/issues/18)
+ * [cookie实践（从搭建服务器到cookie操作全流程)](https://github.com/amandakelake/blog/issues/18)
 
  * [前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
 
