@@ -15,6 +15,8 @@
   * [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
 
   * [jQuery源码（封装思想）](https://github.com/amandakelake/blog/issues/12)
+  
+  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
   * [Object.defineProperty() 和简易双向绑定原理 ](https://github.com/amandakelake/blog/issues/8)
 
