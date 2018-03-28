@@ -29,6 +29,8 @@
 
  * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
  
+ * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
+ 
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
  * [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
