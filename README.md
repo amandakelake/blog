@@ -31,9 +31,17 @@
  
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
  
+ * [你真的了解instanceof吗？](https://github.com/amandakelake/blog/issues/36)
+ 
+ * [自己动手实现new](https://github.com/amandakelake/blog/issues/37)
+ 
+ * [深入原型和原型链](https://github.com/amandakelake/blog/issues/39)
+ 
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
  * [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
+ 
+ * [this](https://github.com/amandakelake/blog/issues/5)
 
  * [You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
  
@@ -41,17 +49,11 @@
 
  * [同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
 
- * [this](https://github.com/amandakelake/blog/issues/5)
-
  * [面向对象总结](https://github.com/amandakelake/blog/issues/3)
 
  * [函数的内部属性和方法（arguments、callee）](https://github.com/amandakelake/blog/issues/6)
 
  * [执行上下文](https://github.com/amandakelake/blog/issues/11)
- 
- * [你真的了解instanceof吗？](https://github.com/amandakelake/blog/issues/36)
- 
- * [自己动手实现new](https://github.com/amandakelake/blog/issues/37)
 
  * [JavaScript的参数传递(引用类型)](https://github.com/amandakelake/blog/issues/2)
 
