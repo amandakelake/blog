@@ -29,6 +29,8 @@
 
  * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
  
+ * [JS文件：读取与拖拽、转换bsae64、预览、上传（七牛）、分割文件](https://github.com/amandakelake/blog/issues/40)
+ 
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
  
  * [你真的了解instanceof吗？](https://github.com/amandakelake/blog/issues/36)
