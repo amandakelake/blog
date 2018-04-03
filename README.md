@@ -37,7 +37,7 @@
  
  * [自己动手实现new](https://github.com/amandakelake/blog/issues/37)
  
- * [深入原型和原型链](https://github.com/amandakelake/blog/issues/39)
+ * [深入原型和原型链：彻底捋清prototype和__proto__](https://github.com/amandakelake/blog/issues/39)
  
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
