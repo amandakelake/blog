@@ -80,6 +80,8 @@
  * [cookie实践（从搭建服务器到cookie操作全流程)](https://github.com/amandakelake/blog/issues/18)
 
  * [前端存储（cookie+localStorage+sessionStorage+indexedDb）](https://github.com/amandakelake/blog/issues/13)
+ 
+ * [聊聊浏览器缓存：强缓存、协商缓存、缓存整体流程](https://github.com/amandakelake/blog/issues/41)
 
  * [Web缓存](https://github.com/amandakelake/blog/issues/15)
 
