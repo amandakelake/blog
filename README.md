@@ -14,7 +14,7 @@
 
   * [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
 
-  * [jQuery源码（封装思想）](https://github.com/amandakelake/blog/issues/12)
+  * [jQuery源码-核心架构](https://github.com/amandakelake/blog/issues/12)
   
 
 
@@ -88,11 +88,11 @@
 
  * [TCP概览](https://github.com/amandakelake/blog/issues/21)
 
- * [前端跨域（目前主流几大方法）](https://github.com/amandakelake/blog/issues/17)
+ * [前端跨域-只谈主流: postMessage、CORS、Websocket、插件](https://github.com/amandakelake/blog/issues/17)
 
 
 ## HTML+CSS
 
- * [# BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
+ * [BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
 
  * [三栏布局-七种实现](https://github.com/amandakelake/blog/issues/28)
