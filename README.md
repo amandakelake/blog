@@ -27,8 +27,6 @@
  * [异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
 
  * [异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
-
- * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
  
  * [JS文件：读取与拖拽、转换bsae64、预览、上传（七牛）、分割文件](https://github.com/amandakelake/blog/issues/40)
  
@@ -71,8 +69,9 @@
  * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
 
-## Web与性能
+## 网络、浏览器、Web性能
 
+ * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
  * [深入了解HTTP/2的前世今生以及Web性能优化总结](https://github.com/amandakelake/blog/issues/35)
 
