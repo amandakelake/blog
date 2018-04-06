@@ -20,6 +20,7 @@
 
 ## JS
 
+ * [根据Promise/A+规范实现 Promise](https://github.com/amandakelake/blog/issues/42)
 
  * [异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
 
