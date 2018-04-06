@@ -13,8 +13,8 @@
   * [React-Native 从零搭建App(长文)](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
   * [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
-
-  * [jQuery源码-核心架构](https://github.com/amandakelake/blog/issues/12)
+  
+  * [jQuery源码-核心架构](https://github.com/amandakelake/blog/issues/12)
   
 
 
