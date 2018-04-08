@@ -20,6 +20,8 @@
 
 ## JS
 
+ * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
+
  * [根据Promise/A+规范实现 Promise](https://github.com/amandakelake/blog/issues/42)
 
  * [异步（一）：Promise深入理解与实例分析](https://github.com/amandakelake/blog/issues/30)
