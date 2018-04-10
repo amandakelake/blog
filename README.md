@@ -34,9 +34,9 @@
  
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
  
- * [你真的了解instanceof吗？](https://github.com/amandakelake/blog/issues/36)
+ * [彻底捋清楚 instanceof ](https://github.com/amandakelake/blog/issues/36)
  
- * [自己动手实现new](https://github.com/amandakelake/blog/issues/37)
+ * [彻底捋清楚 new 的实现](https://github.com/amandakelake/blog/issues/37)
  
  * [深入原型和原型链：彻底捋清prototype和__proto__](https://github.com/amandakelake/blog/issues/39)
  
