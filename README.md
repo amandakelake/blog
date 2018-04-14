@@ -34,11 +34,13 @@
  
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
  
+ * [深入原型和原型链：彻底捋清prototype和__proto__](https://github.com/amandakelake/blog/issues/39)
+
+ * [深入继承：一步步捋清五种继承方式](https://github.com/amandakelake/blog/issues/3)
+
  * [彻底捋清楚 instanceof ](https://github.com/amandakelake/blog/issues/36)
  
  * [彻底捋清楚 new 的实现](https://github.com/amandakelake/blog/issues/37)
- 
- * [深入原型和原型链：彻底捋清prototype和__proto__](https://github.com/amandakelake/blog/issues/39)
  
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
@@ -51,8 +53,6 @@
  * [深入理解JS的类型、值、类型转换](https://github.com/amandakelake/blog/issues/34)
 
  * [同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
-
- * [面向对象总结](https://github.com/amandakelake/blog/issues/3)
 
  * [函数的内部属性和方法（arguments、callee）](https://github.com/amandakelake/blog/issues/6)
 
