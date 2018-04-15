@@ -41,6 +41,8 @@
  * [彻底捋清楚 instanceof ](https://github.com/amandakelake/blog/issues/36)
  
  * [彻底捋清楚 new 的实现](https://github.com/amandakelake/blog/issues/37)
+
+ * [模拟实现call、apply、bind](https://github.com/amandakelake/blog/issues/16)
  
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
@@ -61,8 +63,6 @@
  * [JavaScript的参数传递(引用类型)](https://github.com/amandakelake/blog/issues/2)
 
  * [map、forEach、filter 、reduce](https://github.com/amandakelake/blog/issues/19)
-
- * [call、apply、bind和类数组](https://github.com/amandakelake/blog/issues/16)
 
  * [Javascript五大排序算法-原生写法](https://github.com/amandakelake/blog/issues/4)
 
