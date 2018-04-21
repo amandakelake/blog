@@ -73,6 +73,8 @@
 
 ## 网络、浏览器、Web性能
 
+ * [【性能优化】图片加载：懒加载与预加载](https://github.com/amandakelake/blog/issues/46)
+
  * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
  * [深入了解HTTP/2的前世今生以及Web性能优化总结](https://github.com/amandakelake/blog/issues/35)
