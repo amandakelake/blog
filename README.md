@@ -93,7 +93,7 @@
 
  * [TCP概览](https://github.com/amandakelake/blog/issues/21)
 
- * [前端跨域-只谈主流: postMessage、CORS、Websocket、插件](https://github.com/amandakelake/blog/issues/17)
+ * [前端跨域: postMessage、CORS、Websocket、插件](https://github.com/amandakelake/blog/issues/17)
 
 
 ## HTML+CSS
