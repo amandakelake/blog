@@ -30,7 +30,7 @@
 
  * [异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
  
- * [JS文件：读取与拖拽、转换bsae64、预览、上传（七牛）、分割文件](https://github.com/amandakelake/blog/issues/40)
+ * [JS文件：读取与拖拽、转换bsae64、预览、FormData上传、七牛上传、分割文件](https://github.com/amandakelake/blog/issues/40)
  
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
  
