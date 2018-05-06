@@ -74,6 +74,8 @@
 
 ## 网络、浏览器、Web性能
 
+ * [【性能优化】DNS预解析](https://github.com/amandakelake/blog/issues/50)
+
  * [【性能优化】图片加载：懒加载与预加载](https://github.com/amandakelake/blog/issues/46)
  
  * [【性能优化】图片](https://github.com/amandakelake/blog/issues/48)
