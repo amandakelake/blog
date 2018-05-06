@@ -76,9 +76,9 @@
 
  * [【性能优化】DNS预解析](https://github.com/amandakelake/blog/issues/50)
 
- * [【性能优化】图片加载：懒加载与预加载](https://github.com/amandakelake/blog/issues/46)
+ * [【性能优化】图片——加载：懒加载与预加载](https://github.com/amandakelake/blog/issues/46)
  
- * [【性能优化】图片](https://github.com/amandakelake/blog/issues/48)
+ * [【性能优化】图片优化——总览](https://github.com/amandakelake/blog/issues/48)
 
  * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
 
