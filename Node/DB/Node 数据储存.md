@@ -1,5 +1,5 @@
 # Node 数据储存
-#Front-End/js/Node
+#Front-End/js/Node/NodeInAction
 
 DBMS：数据库管理系统
 
@@ -130,12 +130,12 @@ Redis把数据存在RAM中，并在磁盘中记录数据的变化
 
 如果Redis服务器崩溃，RAM的内存丢失，可以用磁盘中的日志回复数据
 
-### MongoDB
+### 2、MongoDB
 通用的非关系型数据库，使用RDBMS的那类程序都可以使用MongoDB
 
 MongoDB把文档（document）存在集合（collection）中，数据（更多是json格式）存在document中
 
-### Mongoose
+### 3、Mongoose
 Mongoose是一个Node模块，并不是数据库，它可以让你更顺畅的使用MongoDB
 
 
