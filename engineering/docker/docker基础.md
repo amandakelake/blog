@@ -4,7 +4,7 @@
 ## 一、核心
 docker通过内核虚拟化技术（namespace及cgroups等）来提供容器的资源隔离与安全保障等，由于docker通过操作系统层的虚拟化实现隔离，所以docker容器在运行时，不需要类似虚拟机额外的操作系统开销，提供资源利用率
 
-[image:697A502C-1496-42B3-8139-400F64F14325-7627-000033BF6B365025/6658B42F-4B1A-4679-B7C5-43BD774F04D7.png]
+![image](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%801.png)
 
 Docker 容器本质上是宿主机上的一个进程。Docker 通过 namespace 实现了资源隔离，通过 cgroups 实现了资源的限制，通过写时复制机制（copy-on-write）实现了高效的文件操作。
 
