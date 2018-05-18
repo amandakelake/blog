@@ -4,7 +4,7 @@
 ## 一、核心
 docker通过内核虚拟化技术（namespace及cgroups等）来提供容器的资源隔离与安全保障等，由于docker通过操作系统层的虚拟化实现隔离，所以docker容器在运行时，不需要类似虚拟机额外的操作系统开销，提供资源利用率
 
-![image](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%801.png)
+![](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%803.png)
 
 Docker 容器本质上是宿主机上的一个进程。Docker 通过 namespace 实现了资源隔离，通过 cgroups 实现了资源的限制，通过写时复制机制（copy-on-write）实现了高效的文件操作。
 
@@ -15,7 +15,9 @@ Docker有五个命名空间：进程、网络、挂载、宿主和共享内存�
 ### 镜像
 一个只读层被称为镜像，一个镜像是永久不会变的，也是无状态的
 Docker 使用一个统一文件系统，Docker 进程认为整个文件系统是以读写方式挂载的
-[image:6002670C-182C-4327-8711-2AFACA3AB53F-7627-0000343561DF9BD4/5D285CCD-2173-449B-873A-73CB70157806.png]
+
+![image](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%801.png)
+
 每一个镜像都可能依赖于由一个或多个下层的组成的另一个镜像。我们有时说，下层那个 镜像是上层镜像的父镜像，一个镜像不能超过 127 层
 
 ### 容器
@@ -30,7 +32,8 @@ Docker 使用一个统一文件系统，Docker 进程认为整个文件系统是
 
 ## 试运行一个web应用（容器使用）
 载入一个镜像（一个 Python Flask 应用）
-[image:85CBEB25-95F3-4D2C-AE9E-419FC453B8E5-7627-000035A836E867C0/1623BCBF-5615-4622-BF8F-AFAE848140C6.png]
+
+![](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%802.png)
 
 运行应用 -d让容器在后台运行 -P: 将容器内部的网络端口映射到我们使用的主机上
 ```
@@ -38,12 +41,12 @@ docker run -d -P training/webapp python app.py
 ```
 
 然后用`docker ps`来查看
-[image:E9B4F174-05C2-4DCD-AA8E-9663A81676AD-7627-000035E233662509/AD91F5DE-E467-4BD1-B188-E41633734B5F.png]
+![](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%804.png)
 `docker container ls`也可查看正在运行的容器
 
 Docker 开放了 5000 端口（默认 Python Flask 端口）映射到主机端口 32769 上。
 这时我们可以通过浏览器`http://localhost:32768/`访问
-[image:653C0599-7878-4E3B-B728-CC3902C94CBC-7627-000035F49FDD8599/E1F04287-A5A8-4C51-9140-AA335382988F.png]
+![](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%806.png)
 
 也可以指定 -p 标识来绑定指定端口
 ```
@@ -58,7 +61,7 @@ docker run -d -p 5000:5000 training/webapp python app.py
 当运行容器时，使用的镜像如果在本地中不存在，docker 就会自动从 docker 镜像仓库中下载，默认是从 [Docker Hub]( https://hub.docker.com/) 公共镜像源下载。
 
 `docker images ` 列出本地主机上的镜像
-[image:1F8723D8-4EA9-4ABD-9A3F-2B55CECF8026-7627-00003662D02C6B1A/DE473578-5B44-4999-82FE-D28067D0E14B.png]
+![](https://github.com/amandakelake/blog/blob/master/assets/Engineering/Docker%E5%9F%BA%E7%A1%805.png)
 * REPOSITORY：表示镜像的仓库源
 * TAG：镜像的标签(表示不同版本)
 * IMAGE ID：镜像ID
