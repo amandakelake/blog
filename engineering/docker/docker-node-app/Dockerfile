@@ -2,7 +2,7 @@
 FROM node:carbon
 
 # 定义项目要上传的容器位置，也就是我们这个项目要放到那个容器中
-WORKDIR /ndoe/app
+WORKDIR /usr/src/app
 
 # 需要使用npm  所以复制一发
 # npm 从版本4以上会生成package-lock.json文件
@@ -16,7 +16,7 @@ RUN npm install
 COPY . .
 
 # 对外开放端口，让外部可以访问容器内的app
-EXPOSE 8080
+EXPOSE 3000
 
 # 启动App, 两条命令其实一样的
 # CMD ["node", "server.js"]
