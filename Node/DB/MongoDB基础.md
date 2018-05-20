@@ -33,6 +33,16 @@ mongodb/3.6.4/bin
 
 打开浏览器输入`localhost:27017`,会看到`It looks like you are trying to access MongoDB over HTTP on the native driver port.`的字眼
 
+如果不想每次启动mongodb都要切换到`/usr/local/Cellar/mongoDB/3.6.4/bin`目录下，我们可以将它添加到环境变量，操作如下
+```
+echo 'export PATH=/usr/local/Cellar/mongoDB/3.6.4/bin:$PATH'>>~/.bash_profile
+```
+如果用的是iterm2，用的shell是zsh的话，把`.bash_profile`换成`.zshrc`
+
+重启命令终端，或者`source ~/.zshrc`即可生效
+
+接下来我在任何目录下执行`mongod --dbpath ~/Data-DB`都可以直接开启了。
+
 #### 5、基础操作
 在另一个命令行窗口进入如下操作
 ```
