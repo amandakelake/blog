@@ -1,7 +1,4 @@
 # Express + create-react-app 快速构建前后端开发环境
-#Front-End/js/Node
-
-[使用 create-react-app配合express快速构建React开发环境 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000009857965)
 
 ## 一、快速构建react app
 上官网全局安装create-react-app
