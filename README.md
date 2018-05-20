@@ -117,3 +117,5 @@
  * [Docker 运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
 
  * [mongoDB基础](https://github.com/amandakelake/blog/blob/master/Node/DB/MongoDB%E5%9F%BA%E7%A1%80.md)
+
+ * [快速上手node+express+MongoDB](https://github.com/amandakelake/blog/blob/master/Node/DB/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BNode%2Bexpress%2BmongoDB.md)
