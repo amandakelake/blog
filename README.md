@@ -2,6 +2,7 @@
 # personal blog about Front-End
 
 
+ * [转行前端一年回顾+一点学习心得](https://github.com/amandakelake/blog/blob/master/summary/%E8%BD%AC%E8%A1%8C%E5%89%8D%E7%AB%AF%E4%B8%80%E5%B9%B4%E5%9B%9E%E9%A1%BE%2B%E4%B8%80%E7%82%B9%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97.md)
 
 ## 框架
 
