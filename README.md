@@ -2,7 +2,7 @@
 # personal blog about Front-End
 
 
- * [转行前端一年回顾+一点学习心得 —— 2018.06.01](https://github.com/amandakelake/blog/issues/51)
+ * [转行前端一年回顾+一点学习心得 —— 2018.06](https://github.com/amandakelake/blog/issues/51)
 
 ## 框架
 
