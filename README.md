@@ -4,7 +4,7 @@
 
  * [转行前端一年回顾+一点学习心得 —— 2018.06](https://github.com/amandakelake/blog/issues/51)
 
-## 框架
+## Framework
 
   * [RN性能优化以及我踩过的一些“弱智”坑儿😂（持续更新。。。）](https://github.com/amandakelake/blog/issues/49)
 
@@ -73,7 +73,7 @@
  * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
 
-## 网络、浏览器、Web性能
+## Network、Browser、Web performance
 
  * [【性能优化】DNS预解析](https://github.com/amandakelake/blog/issues/50)
 
@@ -104,7 +104,7 @@
  * [前端跨域: postMessage、CORS、Websocket、插件](https://github.com/amandakelake/blog/issues/17)
 
 
-## HTML+CSS
+## HTML、CSS
 
  * [BFC（块级格式上下文）](https://github.com/amandakelake/blog/issues/25)
 
