@@ -1,6 +1,9 @@
 
 # personal blog about Front-End
 
+> 合抱之木生于毫末，九层之台起于垒土，欲速则不达
+---
+
 
  * [转行前端一年回顾+一点学习心得 —— 2018.06](https://github.com/amandakelake/blog/issues/51)
 
