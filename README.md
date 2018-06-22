@@ -9,9 +9,9 @@
 
 ## Framework
 
-  * [RN性能优化总结（持续更新。。。）](https://github.com/amandakelake/blog/issues/49)
+  * [React Native 性能优化总结（持续更新。。。）](https://github.com/amandakelake/blog/issues/49)
 
-  * [RN踩坑记录总结（持续更新。。。）](https://github.com/amandakelake/blog/issues/52)
+  * [React Native 踩坑记录总结（持续更新。。。）](https://github.com/amandakelake/blog/issues/52)
 
   * [React-Native 从零搭建App(长文)](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
