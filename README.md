@@ -15,11 +15,11 @@
 
   * [React-Native 从零搭建App(长文)](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
-  * [基于React版本16的源码解析（一）：组件实现](https://github.com/amandakelake/blog/issues/27)
+  * [React源码分析：组件实现（基于版本16）](https://github.com/amandakelake/blog/issues/27)
   
-  * [React-setState源码分析](https://github.com/amandakelake/blog/issues/29)
+  * [React源码分析：setState](https://github.com/amandakelake/blog/issues/29)
   
-  * [Redux-源码分析](https://github.com/amandakelake/blog/issues/33)
+  * [Redux源码分析](https://github.com/amandakelake/blog/issues/33)
   
   * [jQuery源码结构](https://github.com/amandakelake/blog/issues/12)
   
