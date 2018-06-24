@@ -1,3 +1,26 @@
+// 给定一个排序数组，你需要在原地删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
+// 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
+/**
+ * 
+ * @param {Array} nums 
+ * @return {Number}
+ */
+
+var removeDuplicates = function (nums) {
+  var j = 0;
+  var i = 0;
+  for (l = nums.length; i < l; i++) {
+    // 最后以j为索引的是去重后的数组
+    if (nums[j] !== nums[i]) {
+      // nums[i] 前面的都可以改变
+      nums[++j] = nums[i];
+    }
+  }
+  return j + 1;
+};
+
+// 下面是数组去重的几个方法
+
 // for循环 + indexOf
 function removeDuplicates_for_loop(arr) {
   let res = [];
@@ -60,3 +83,5 @@ function removeDuplicates_Set(arr) {
   // return [...new Set(arr)];
   return Array.from(new Set(arr));
 }
+
+
