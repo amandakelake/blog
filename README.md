@@ -73,12 +73,15 @@
 
  * [map、forEach、filter 、reduce](https://github.com/amandakelake/blog/issues/19)
 
- * [Javascript五大排序算法-原生写法](https://github.com/amandakelake/blog/issues/4)
-
  * [一道综合面试题（原型、this、作用域、构造函数、运算符优先级）](https://github.com/amandakelake/blog/issues/10)
 
  * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
+## Algorithm
+
+ * [《学习JavaScript数据结构与算法》读书笔记](https://github.com/amandakelake/blog/blob/master/Algorithm/Learn%20Javascript%20Data%20Structures%20and%20Algorithms/JS%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.pdf)
+
+ * [Javascript基础算法——排序与搜索](https://github.com/amandakelake/blog/issues/4)
 
 ## Network、Browser、Web performance
 
