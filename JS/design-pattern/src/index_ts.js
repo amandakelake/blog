@@ -1,8 +1,12 @@
 // 父类
 class people {
+  name
+  age
+  protected weight
   constructor(name, age) {
     this.name = name;
     this.age = age;
+    this.weight = 120;
   }
   eat() {
     console.log(`${this.name} eat something`)
@@ -21,43 +25,30 @@ console.log(Amanda.eat())
 
 // 子类继承父类
 class Student extends people {
+  number
+  private girlfriend
   constructor(name, age, number) {
     super(name, age);
     this.number = number;
+    this.girlfriend = "xiaoli"
   }
   study() {
     console.log(`${this.name} is studying`)
   }
+  getWeight() {
+    console.log(`my weight is ${weight}`)
+  }
 }
 
 let LGC1 = new Student("LGC1", 24, 2);
-LGC1.study();
-LGC1.eat();
-console.log(LGC1.number);
+// 报错，protected不能在外面读
+console.log(LGC1.weight);
+// protected 可以在子类内部读
+console.log(LGC1.getWeight());
+// private 私有 不给读
+console.log(LGC1.girlfriend);
 
 
 
-class jQuery {
-  constructor(selector) {
-    let slice = Array.prototype.slice;
-    let dom = slice.call(document.querySelectorAll(selector));
-    let len = dom ? dom.length : 0;
-    for(let i = 0; i < len; i++) {
-      this[i] = dom[i]
-    }
-    this.length = len;
-    this.selector = selector || ''
-  }
-  append(node) {}
-  addClass(name) {}
-  html(data) {}
-  // 省略N个api
-}
 
-window.$ = function(selector) {
-  // 工厂模式
-  return new jQuery(selector)
-}
 
-const $p = $('p')
-console.log($p);
