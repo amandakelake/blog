@@ -47,8 +47,3 @@ console.log(LGC1.weight);
 console.log(LGC1.getWeight());
 // private 私有 不给读
 console.log(LGC1.girlfriend);
-
-
-
-
-
