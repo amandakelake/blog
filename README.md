@@ -89,6 +89,8 @@
 
  * [【性能优化】DNS预解析](https://github.com/amandakelake/blog/issues/50)
 
+ * [【性能优化】优化关键渲染路径，加速浏览器首次渲染](https://github.com/amandakelake/blog/issues/54)
+
  * [【性能优化】图片——加载：懒加载与预加载](https://github.com/amandakelake/blog/issues/46)
  
  * [【性能优化】图片优化——总览](https://github.com/amandakelake/blog/issues/48)
