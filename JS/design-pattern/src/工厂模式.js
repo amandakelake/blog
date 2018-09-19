@@ -15,6 +15,7 @@ class jQuery {
   // 省略N个api
 }
 
+// 把new封装起来的工厂函数
 window.$ = function(selector) {
   // 工厂模式
   return new jQuery(selector)
