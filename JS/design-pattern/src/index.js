@@ -18,7 +18,6 @@ console.log(LGC.eat())
 let Amanda = new people("Amanda", 24)
 console.log(Amanda.eat())
 
-
 // 子类继承父类
 class Student extends people {
   constructor(name, age, number) {
@@ -34,8 +33,6 @@ let LGC1 = new Student("LGC1", 24, 2);
 LGC1.study();
 LGC1.eat();
 console.log(LGC1.number);
-
-
 
 class jQuery {
   constructor(selector) {
