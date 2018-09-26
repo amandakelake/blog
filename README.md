@@ -26,9 +26,12 @@
   * [Redux源码分析](https://github.com/amandakelake/blog/issues/33)
   
   * [jQuery源码结构](https://github.com/amandakelake/blog/issues/12)
+
+  * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
+
+  * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
+
   
-
-
 ## JS
 
  * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
