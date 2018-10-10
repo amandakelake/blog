@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: "./src/question-car.js",
+  entry: "./src/5-单例模式.js",
   output: {
     path: __dirname,
     filename: "./release/bundle.js"
