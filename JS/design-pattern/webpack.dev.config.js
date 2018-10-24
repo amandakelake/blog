@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: "./src/5-单例模式.js",
+  entry: "./src/index.js",
   output: {
     path: __dirname,
     filename: "./release/bundle.js"
