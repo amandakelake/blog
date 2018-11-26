@@ -131,6 +131,8 @@
 
 ## Engineering
 
+ * [React+Eslint+Prettier+git hook -> make your life easier](https://github.com/amandakelake/blog/issues/59)
+
  * [Docker基础认识](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
 
  * [Docker 运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
