@@ -124,8 +124,10 @@
  * [TCP概览](https://github.com/amandakelake/blog/issues/21)
 
  * [TCP与UDP对比](https://github.com/amandakelake/blog/issues/47)
+ 
+ * [CORS 简单请求+预检请求（理解HTTP跨域原理）](https://github.com/amandakelake/blog/issues/62)
 
- * [前端跨域](https://github.com/amandakelake/blog/issues/17)
+ * [前端跨域常用方法](https://github.com/amandakelake/blog/issues/17)
 
 
 ## HTML、CSS
