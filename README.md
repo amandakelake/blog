@@ -12,7 +12,7 @@
 
   * [Next.js 生命周期理解 -> 流程图](https://github.com/amandakelake/blog/issues/61)
 
-  * [理解SSR（服务端渲染）的核心原理](https://github.com/amandakelake/blog/issues/60)
+  * [理解后端渲染、CSR(客户端渲染)、SSR（服务端渲染）的核心原理及区别](https://github.com/amandakelake/blog/issues/60)
 
   * [Build a react+react-router ssr App from the ground up](https://github.com/amandakelake/react-router-ssr/blob/master/README.md)
 
