@@ -25,18 +25,18 @@
   * [React-Native 从零搭建App(长文)](https://juejin.im/post/5a9f93d96fb9a028d2077c19)
 
   * [React源码分析：组件实现（基于版本16）](https://github.com/amandakelake/blog/issues/27)
-  
+
   * [React源码分析：setState](https://github.com/amandakelake/blog/issues/29)
-  
+
   * [Redux源码分析](https://github.com/amandakelake/blog/issues/33)
-  
+
   * [jQuery源码结构](https://github.com/amandakelake/blog/issues/12)
 
   * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
 
   * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
 
-  
+
 ## JS
 
  * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
@@ -48,29 +48,29 @@
  * [异步（二）：Generator（生成器）深入理解](https://github.com/amandakelake/blog/issues/31)
 
  * [异步（三）：Async/await](https://github.com/amandakelake/blog/issues/32)
- 
+
  * [JS文件：读取与拖拽、转换bsae64、预览、FormData上传、七牛上传、分割文件](https://github.com/amandakelake/blog/issues/40)
- 
+
  * [JS事件：捕获与冒泡、事件处理程序、事件对象、跨浏览器、事件委托](https://github.com/amandakelake/blog/issues/38)
- 
+
  * [深入原型和原型链：彻底捋清prototype和__proto__](https://github.com/amandakelake/blog/issues/39)
 
  * [深入继承：一步步捋清五种继承方式](https://github.com/amandakelake/blog/issues/3)
 
  * [彻底捋清楚 instanceof ](https://github.com/amandakelake/blog/issues/36)
- 
+
  * [彻底捋清楚 new 的实现](https://github.com/amandakelake/blog/issues/37)
 
  * [模拟实现call、apply、bind](https://github.com/amandakelake/blog/issues/16)
- 
+
  * [Object.defineProperty() 和简易双向绑定原理](https://github.com/amandakelake/blog/issues/8)
 
  * [变量对象（真正理解何为提升）](https://github.com/amandakelake/blog/issues/7)
- 
+
  * [this](https://github.com/amandakelake/blog/issues/5)
 
  * [You don’t konw JavaScript => 闭包](https://github.com/amandakelake/blog/issues/24)
- 
+
  * [深入理解JS的类型、值、类型转换](https://github.com/amandakelake/blog/issues/34)
 
  * [同一个函数形成的多个闭包的值都是相互独立的](https://github.com/amandakelake/blog/issues/1)
@@ -102,7 +102,7 @@
  * [【性能优化】优化关键渲染路径，加速浏览器首次渲染](https://github.com/amandakelake/blog/issues/54)
 
  * [【性能优化】手把手实现图片懒加载+Vue封装](https://github.com/amandakelake/blog/issues/46)
- 
+
  * [【性能优化】图片优化——总览](https://github.com/amandakelake/blog/issues/48)
 
  * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
@@ -110,13 +110,13 @@
  * [深入了解HTTP/2的前世今生以及Web性能优化总结](https://github.com/amandakelake/blog/issues/35)
 
  * [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
- 
+
  * [缓存（一）——缓存总览：从性能优化的角度看缓存](https://github.com/amandakelake/blog/issues/43)
- 
+
  * [缓存（二）——浏览器缓存机制：强缓存、协商缓存](https://github.com/amandakelake/blog/issues/41)
- 
+
  * [缓存（三）——数据存储：cookie、Storage、indexedDB](https://github.com/amandakelake/blog/issues/13)
- 
+
  * [缓存（四）——离线应用缓存：App Cache => Manifest](https://github.com/amandakelake/blog/issues/15)
 
  * [cookie实践（从搭建服务器到cookie操作全流程)](https://github.com/amandakelake/blog/issues/18)
@@ -124,7 +124,7 @@
  * [TCP概览](https://github.com/amandakelake/blog/issues/21)
 
  * [TCP与UDP对比](https://github.com/amandakelake/blog/issues/47)
- 
+
  * [CORS 简单请求+预检请求（理解HTTP跨域原理）](https://github.com/amandakelake/blog/issues/62)
 
  * [前端跨域常用方法](https://github.com/amandakelake/blog/issues/17)
@@ -140,6 +140,8 @@
 ## Engineering
 
  * [React+Eslint+Prettier+git hook -> make your life easier](https://github.com/amandakelake/blog/issues/59)
+
+ * [Vim 基础操作](https://github.com/amandakelake/blog/blob/master/Engineering/vim/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C.md)
 
  * [Docker基础认识](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
 
