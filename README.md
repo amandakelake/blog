@@ -35,6 +35,8 @@
   * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
 
   * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
+  
+  * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
 
 
 ## JS
