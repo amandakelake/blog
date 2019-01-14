@@ -98,6 +98,8 @@
 ## Network、Browser、Web performance
 
  * [浏览器工作原理：从输入URL到页面加载完成](https://github.com/amandakelake/blog/issues/55)
+ 
+ * [Web Performance Optimizations](https://github.com/amandakelake/blog/issues/64)
 
  * [【性能优化】DNS预解析、域名发散、域名收敛](https://github.com/amandakelake/blog/issues/50)
 
