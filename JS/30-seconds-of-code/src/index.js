@@ -1,4 +1,4 @@
-import { arrayToHtmlList, copyToClipboard } from "../util/browser"
+import { arrayToHtmlList, copyToClipboard, counter } from "../util/browser"
 
 // arrayToHtmlList
 document.getElementById("arrayToHtmlList").addEventListener('click', () => {
@@ -10,4 +10,8 @@ document.getElementById("arrayToHtmlList").addEventListener('click', () => {
 document.getElementById("copyToClipboard").addEventListener('click', () => {
   const str = document.getElementById("copyText").innerText.toString();
   copyToClipboard(str);
+})
+
+document.getElementById("counter-trigger").addEventListener('click', () => {
+  counter('#counter', 0, 1000, 5, 10000)
 })
