@@ -48,3 +48,31 @@ export const counter = (selector, start, end, step = 1, duration = 2000) => {
     }, Math.abs(Math.floor(duration / (end - start))));
   return timer;
 };
+
+// createEventHub
+export const createEventHub = () => ({
+  // 生成一个空对象，该对象不继承Object.prototype的属性,比如toString这些它都不需要
+  // hub的格式： { [event1]: [handler1, handler2, handler3, ...], [event2]: [], [event3]: [], ...}
+  hub: Object.create(null),
+  // 发布事件
+  emit(event, data) {
+    (this.hub[event] || []).forEach(handler => handler(data));
+  },
+  // 订阅事件，并注册回调函数handler
+  on(event, handler) {
+    // 如果事件不存在，创建一个event空数组
+    if (!this.hub[event]) {
+      this.hub[event] = [];
+    }
+    this.hub[event].push(handler);
+  },
+  // 取消订阅
+  off(event, handler) {
+    // 寻找hub[event]里是否存在这个handler
+    const i = (this.hub[event] || []).findIndex(h => h === handler);
+    if (i > -1) {
+      // 如果存在，移除该事件所绑定的handler
+      this.hub[event].splice(i, 1);
+    }
+  }
+})
