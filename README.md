@@ -41,6 +41,8 @@
 
 ## JS
 
+ * [随手实现一个订阅-发布模式](https://github.com/amandakelake/blog/issues/65)
+
  * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
 
  * [根据Promise/A+规范实现 Promise](https://github.com/amandakelake/blog/issues/42)
