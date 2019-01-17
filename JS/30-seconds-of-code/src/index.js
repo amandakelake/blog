@@ -22,37 +22,38 @@ document.getElementById("counter-trigger").addEventListener('click', () => {
 })
 
 // createEventHub
-const hub = createEventHub();
+const eventHub = createEventHub();
 
 let createEventHubVariable = 1;
+document.getElementById("createEventHubVariable").innerHTML = createEventHubVariable;
+
 const handler = data => {
   console.log(data);
 }
-/*
-// hub订阅了myEvent， myEvent2 两个事件
-// 其中myEvent事件注册了两个回调handler 和 匿名函数
-hub.on('myEvent', handler);
-hub.on('myEvent', () => {
-  console.log('I am handler 2');
-  console.log('hub', hub)
-});
-hub.on('myEvent2', () => {
-  createEventHubVariable++;
-  console.log('hub', hub);
-});
+/**
+  // hub订阅了myEvent， myEvent2 两个事件
+  // 其中myEvent事件注册了两个回调handler 和 匿名函数
+  eventHub.on('myEvent', handler);
+  eventHub.on('myEvent', () => {
+    console.log('I am handler 2');
+    console.log('eventHub', eventHub)
+  });
+  eventHub.on('myEvent2', () => {
+    createEventHubVariable++;
+    console.log('eventHub', eventHub);
+  });
 
-// 某些用户或者数据变化产生的交互：发布
-// 传入不同的参数，执行回调handler， 同时也会执行上面注册的匿名函数
-hub.emit('myEvent', 'I am a string');
-hub.emit('myEvent', { arg: 'I am a object'});
-hub.emit('myEvent2');
+  // 某些用户或者数据变化产生的交互：发布
+  // 传入不同的参数，执行回调handler， 同时也会执行上面注册的匿名函数
+  eventHub.emit('myEvent', 'I am a string');
+  eventHub.emit('myEvent', { arg: 'I am a object'});
+  eventHub.emit('myEvent2');
 
-// 只移除了handler， 匿名函数还是在的
-hub.off('myEvent', handler)
+  // 只移除了handler， 匿名函数还是在的
+  eventHub.off('myEvent', handler)
 */
-
 document.getElementById("log-hub").addEventListener('click', () => {
-  console.log('hub', hub);
+  console.log('eventHub', eventHub);
 })
 
 document.getElementById("log-va").addEventListener('click', () => {
@@ -60,35 +61,37 @@ document.getElementById("log-va").addEventListener('click', () => {
 })
 
 document.getElementById("subscribe-myEvent-h").addEventListener('click', () => {
-  hub.on('myEvent', handler);
-  console.log('hub', hub);
+  eventHub.on('myEvent', handler);
+  console.log('eventHub', eventHub);
 })
 
 document.getElementById("subscribe-myEvent-u").addEventListener('click', () => {
-  hub.on('myEvent', () => console.log('I am handler 2'));
-  console.log('hub', hub)
+  eventHub.on('myEvent', () => console.log('I am handler 2'));
+  console.log('eventHub', eventHub)
 })
 
 document.getElementById("subscribe-myEvent2").addEventListener('click', () => {
-  hub.on('myEvent2', () => {
+  eventHub.on('myEvent2', () => {
     createEventHubVariable++;
+    document.getElementById("createEventHubVariable").innerHTML = createEventHubVariable;
   });
-  console.log('hub', hub)
+  console.log('eventHub', eventHub)
 })
 
 document.getElementById("emit-myEvent").addEventListener('click', () => {
-  hub.emit('myEvent', 'I am a string');
-  hub.emit('myEvent', {
+  eventHub.emit('myEvent', 'I am a string');
+  eventHub.emit('myEvent', {
     arg: 'I am a object'
   });
 })
 
 document.getElementById("emit-myEvent2").addEventListener('click', () => {
-  hub.emit('myEvent2');
+  eventHub.emit('myEvent2');
+  document.getElementById("createEventHubVariable").innerHTML = createEventHubVariable;
   console.log('createEventHubVariable', createEventHubVariable);
 })
 
 document.getElementById("off-myEvent-handler").addEventListener('click', () => {
-  hub.off('myEvent', handler);
-  console.log('hub', hub);
+  eventHub.off('myEvent', handler);
+  console.log('eventHub', eventHub);
 })

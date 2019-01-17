@@ -54,10 +54,6 @@ export const createEventHub = () => ({
   // 生成一个空对象，该对象不继承Object.prototype的属性,比如toString这些它都不需要
   // hub的格式： { [event1]: [handler1, handler2, handler3, ...], [event2]: [], [event3]: [], ...}
   hub: Object.create(null),
-  // 发布事件
-  emit(event, data) {
-    (this.hub[event] || []).forEach(handler => handler(data));
-  },
   // 订阅事件，并注册回调函数handler
   on(event, handler) {
     // 如果事件不存在，创建一个event空数组
@@ -65,6 +61,10 @@ export const createEventHub = () => ({
       this.hub[event] = [];
     }
     this.hub[event].push(handler);
+  },
+  // 发布事件
+  emit(event, data) {
+    (this.hub[event] || []).forEach(handler => handler(data));
   },
   // 取消订阅
   off(event, handler) {
@@ -76,3 +76,30 @@ export const createEventHub = () => ({
     }
   }
 })
+
+
+// scroll to somewhere
+export const scrollToEle = element => {
+  // https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+  document.querySelector(element).scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}
+
+export const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    // https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo
+    window.scrollTo(0, c - c / 8);
+  }
+};
+
+// Use crypto API to generate a UUID, compliant with RFC4122 version 4.
+// https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto
+export const UUIDGeneratorBrowser = () => {
+  ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
+    (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16)
+  );
+}
