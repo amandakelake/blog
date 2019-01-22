@@ -35,13 +35,15 @@
   * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
 
   * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
-  
+
   * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
 
 
 ## JS
 
  * [随手实现一个订阅-发布模式](https://github.com/amandakelake/blog/issues/65)
+
+ * [装饰者模式[设计模式]+ES7 Decorator](https://github.com/amandakelake/blog/issues/66)
 
  * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
 
@@ -100,7 +102,7 @@
 ## Network、Browser、Web performance
 
  * [浏览器工作原理：从输入URL到页面加载完成](https://github.com/amandakelake/blog/issues/55)
- 
+
  * [Web Performance Optimizations](https://github.com/amandakelake/blog/issues/64)
 
  * [【性能优化】DNS预解析、域名发散、域名收敛](https://github.com/amandakelake/blog/issues/50)

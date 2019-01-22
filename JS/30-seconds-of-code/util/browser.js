@@ -103,3 +103,21 @@ export const UUIDGeneratorBrowser = () => {
     (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16)
   );
 }
+
+// runAsync
+// Runs a function in a separate thread by using a Web Worker, allowing long running functions to not block the UI.
+export const runAsync = fn => {
+  const worker = new Worker(
+    URL.createObjectURL(new Blob([`postMessage((${fn})());`]), {
+      type: 'application/javascript; charset=utf-8'
+    })
+  );
+  return new Promise((res, rej) => {
+    worker.onmessage = ({ data }) => {
+      res(data), worker.terminate();
+    };
+    worker.onerror = err => {
+      rej(err), worker.terminate();
+    };
+  });
+};
