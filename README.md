@@ -98,6 +98,8 @@
 
  * [装饰者模式[设计模式]+ES7 Decorator](https://github.com/amandakelake/blog/issues/66)
 
+ * [单例模式](https://github.com/amandakelake/blog/issues/68)
+
 ## Algorithm
 
  * [《学习JavaScript数据结构与算法》读书笔记](https://github.com/amandakelake/blog/blob/master/Algorithm/Learn%20Javascript%20Data%20Structures%20and%20Algorithms/JS%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.pdf)
