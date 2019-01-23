@@ -39,11 +39,7 @@
   * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
 
 
-## JS
-
- * [随手实现一个订阅-发布模式](https://github.com/amandakelake/blog/issues/65)
-
- * [装饰者模式[设计模式]+ES7 Decorator](https://github.com/amandakelake/blog/issues/66)
+## Javascript
 
  * [ECMAScript 2016 2017 2018 新特性](https://github.com/amandakelake/blog/issues/45)
 
@@ -92,6 +88,15 @@
  * [一道综合面试题（原型、this、作用域、构造函数、运算符优先级）](https://github.com/amandakelake/blog/issues/10)
 
  * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
+
+
+## Javascript Design Pattern
+
+ * [随手实现一个订阅-发布模式](https://github.com/amandakelake/blog/issues/65)
+
+ * [代理模式+ ES6 Proxy](https://github.com/amandakelake/blog/issues/67)
+
+ * [装饰者模式[设计模式]+ES7 Decorator](https://github.com/amandakelake/blog/issues/66)
 
 ## Algorithm
 
