@@ -38,6 +38,8 @@
 
   * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
 
+  * [【译】VueJS 最佳实践](https://github.com/amandakelake/blog/issues/69)
+
 
 ## Javascript
 
