@@ -30,8 +30,6 @@
 
   * [Redux源码分析](https://github.com/amandakelake/blog/issues/33)
 
-  * [jQuery源码结构](https://github.com/amandakelake/blog/issues/12)
-
   * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
 
   * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
@@ -39,6 +37,8 @@
   * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
 
   * [【译】VueJS 最佳实践](https://github.com/amandakelake/blog/issues/69)
+
+  * [canvas+vue实现60帧每秒的抢金币动画（类天猫红包雨）](https://github.com/amandakelake/blog/issues/70)
 
 
 ## Javascript
