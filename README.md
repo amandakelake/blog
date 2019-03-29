@@ -38,8 +38,6 @@
 
   * [【译】VueJS 最佳实践](https://github.com/amandakelake/blog/issues/69)
 
-  * [canvas+vue实现60帧每秒的抢金币动画（类天猫红包雨）](https://github.com/amandakelake/blog/issues/70)
-
 
 ## Javascript
 
@@ -108,7 +106,7 @@
 
  * [Javascript基础算法——排序与搜索](https://github.com/amandakelake/blog/issues/4)
 
-## Network、Browser、Web performance
+## Network、Browser、Web performance、Business Scenario
 
  * [浏览器工作原理：从输入URL到页面加载完成](https://github.com/amandakelake/blog/issues/55)
 
@@ -145,6 +143,10 @@
  * [CORS 简单请求+预检请求（理解HTTP跨域原理）](https://github.com/amandakelake/blog/issues/62)
 
  * [前端跨域常用方法](https://github.com/amandakelake/blog/issues/17)
+
+ * [canvas+vue实现60帧每秒的抢金币动画（类天猫红包雨）](https://github.com/amandakelake/blog/issues/70)
+
+ * [前端曝光数据埋点——IntersectionObserver+vue指令](https://github.com/amandakelake/blog/issues/71)
 
 
 ## HTML、CSS
