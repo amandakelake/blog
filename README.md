@@ -146,6 +146,8 @@
 
  * [canvas+vue实现60帧每秒的抢金币动画（类天猫红包雨）](https://github.com/amandakelake/blog/issues/70)
 
+ * [canvas合成图片海报、分享，小坑记录](https://github.com/amandakelake/blog/issues/72)
+
  * [前端曝光数据埋点——IntersectionObserver+vue指令](https://github.com/amandakelake/blog/issues/71)
 
 
