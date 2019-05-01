@@ -116,7 +116,9 @@
 
  * [【性能优化】优化关键渲染路径，加速浏览器首次渲染](https://github.com/amandakelake/blog/issues/54)
 
- * [【性能优化】手把手实现图片懒加载+Vue封装](https://github.com/amandakelake/blog/issues/46)
+ * [【性能优化】手把手实现图片懒加载](https://github.com/amandakelake/blog/issues/46)
+
+ * [Intersection Observer + Vue指令 优雅实现图片懒加载](https://github.com/amandakelake/blog/issues/73)
 
  * [【性能优化】图片优化——总览](https://github.com/amandakelake/blog/issues/48)
 
