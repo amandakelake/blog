@@ -7,6 +7,9 @@
 > 推广：[近百高频知识点，十万余字，最强面试图谱开源(PS：个人承担了该项目的部分翻译工作😁)](https://github.com/InterviewMap/CS-Interview-Knowledge-Map)
 ---
 
+## Latest
+
+  * [2019 前端两年半回顾：深挖洞，广积粮](https://github.com/amandakelake/blog/issues/94)
 
 ## Framework
 
