@@ -13,15 +13,17 @@
 
 ## webpack
 
-  * [【webpack进阶系列】简易Bundler -> 生成依赖图](https://github.com/amandakelake/blog/issues/93)
+  * [【webpack进阶系列(一)】手撸一个mini-webpack(1) : 分析收集依赖](https://github.com/amandakelake/blog/issues/93)
 
-  * [【webpack进阶系列】简易Bundler -> 打包依赖图代码](https://github.com/amandakelake/blog/issues/98)
+  * [【webpack进阶系列(二)】手撸一个mini-webpack(2) : 打包依赖代码](https://github.com/amandakelake/blog/issues/98)
 
-  * [【webpack进阶系列】写个 plugin](https://github.com/amandakelake/blog/issues/91)
+  * [【webpack进阶系列(三)】vscode断点调试源码 -> 理清webpack核心原理流程](https://github.com/amandakelake/blog/issues/92)
 
-  * [【webpack进阶系列】写个 loader](https://github.com/amandakelake/blog/issues/90)
+  * [【webpack进阶系列(四)】写个 plugin](https://github.com/amandakelake/blog/issues/91)
 
-  * [【webpack进阶系列】webpack核心原理](https://github.com/amandakelake/blog/issues/92)
+  * [【webpack进阶系列(五)】写个 loader](https://github.com/amandakelake/blog/issues/90)
+
+
 
 
 ## Network、Browser、Web performance、Business Scenario
