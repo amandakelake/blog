@@ -47,7 +47,7 @@ require(['./a.js'], function (moduleA) {
 
 // a.js 导出
 define(function(require, exports, module) {
-exports.a = 'hello CMD'
+    exports.a = 'hello CMD'
 })
 
 // b.js 导入
