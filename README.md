@@ -19,13 +19,15 @@
 
   * [【webpack进阶系列(三)】webpack插件骨架-Tapable](https://github.com/amandakelake/blog/issues/100)
 
-  * [【webpack进阶系列(四)】webpack核心流程(vscode断点调试源码)](https://github.com/amandakelake/blog/issues/92)
+  * [【webpack进阶系列(四)】webpack核心构建原理(vscode断点调试源码)](https://github.com/amandakelake/blog/issues/92)
 
   * [【webpack进阶系列(五)】构建module流程](https://github.com/amandakelake/blog/issues/99)
 
-  * [【webpack进阶系列(六)】写个 plugin](https://github.com/amandakelake/blog/issues/91)
+  * [【webpack进阶系列(六)】seal封装生成文件核心流程](https://github.com/amandakelake/blog/issues/101)
 
-  * [【webpack进阶系列(七)】写个 loader](https://github.com/amandakelake/blog/issues/90)
+  * [【webpack进阶系列(七)】写个 plugin](https://github.com/amandakelake/blog/issues/91)
+
+  * [【webpack进阶系列(八)】写个 loader](https://github.com/amandakelake/blog/issues/90)
 
 
 
