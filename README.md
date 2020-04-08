@@ -5,12 +5,6 @@
 ---
 
 
-## Latest
-
-  * [2019 前端两年半回顾：深挖洞，广积粮](https://github.com/amandakelake/blog/issues/94)
-
-
-
 ## webpack
 
   * [【webpack进阶系列(一)】手撸一个mini-webpack(1) : 分析收集依赖](https://github.com/amandakelake/blog/issues/93)
