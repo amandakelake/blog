@@ -4,6 +4,7 @@
 > 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下 ————《老子》
 ---
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=amandakelake)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 工程化
 
