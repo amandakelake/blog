@@ -177,7 +177,7 @@
 
  * [一道综合面试题（原型、this、作用域、构造函数、运算符优先级）](https://github.com/amandakelake/blog/issues/10)
 
- * [JS模块化：CommonJS、AMD、CMD、UMD、ES6 Module](https://github.com/amandakelake/blog/blob/master/JS/JS-Modules/JS-Module.md)
+ * [JS模块化：CommonJS、AMD、CMD、UMD、ES6 Module](https://github.com/amandakelake/blog/blob/master/javascript/js-module.md)
 
  * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
