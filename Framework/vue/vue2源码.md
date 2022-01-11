@@ -36,19 +36,21 @@ export default Vue
 "dev": "rollup -w -c scripts/config.js --sourcemap --environment TARGET:web-full-dev",
 ```
 然后`npm run dev`启动，rollup会在dist目录下生成一份带有映射关系的vue.js文件，并且会监听更改
+
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111034588.png)
 
 
 利用这份`dist/vue.js`进行调试就可以了
 在`examples`目录下建一份html文件，然后引入上面的`dist/vue.js`文件
+
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111034263.png)
 
 
 WebStorm提供了一站式debug，非常方便
 如下直接右键debug html文件，在源码需要的地方打断点即可开始
 vscode也提供了类似的功能，自行摸索一下
-![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111034629.png)
 
+![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111034629.png)
 
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111035503.png)
 
@@ -100,6 +102,7 @@ export default Vue
 ```
 
 主要通过`initGlobalAPI(Vue)`在Vue对象上添加了一波属性，主要是一些静态属性和方法
+
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201111035650.png)
 
 #### Vue完整初始化
