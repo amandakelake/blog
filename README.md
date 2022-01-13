@@ -45,7 +45,7 @@
 * [ES6中export及export default、Node中exports和module.exports的区别](https://github.com/amandakelake/blog/issues/22)
 
 
-## Network、Browser、Web performance、Business Scenario
+## Network、Web performance、Business Scenario
 
 * [浏览器工作原理：从输入URL到页面加载完成](https://github.com/amandakelake/blog/issues/55)
 * [事件循环机制 Event-Loop及其延伸](https://github.com/amandakelake/blog/issues/26)
@@ -99,14 +99,14 @@
     * [Redux源码分析](https://github.com/amandakelake/blog/issues/33)
 
 
-## webpack、
+## Webpack、Engineering
 
 * 应用系列
 
     * [【webpack应用系列(一)】从零搭建vue开发环境](https://github.com/amandakelake/webpack-vue/blob/master/docs/dev.md)
     * [【webpack应用系列(二)】从零搭建vue生产环境](https://github.com/amandakelake/webpack-vue/blob/master/docs/prod.md)
     * [【webpack应用系列(三)】webpack性能优化](https://github.com/amandakelake/webpack-vue/blob/master/docs/optimize.md)
-    * [React+Eslint+Prettier+git hook -> make your life easier](https://github.com/amandakelake/blog/issues/59)
+    * [【规范】Eslint+Prettier+git hook -> make your life easier](https://github.com/amandakelake/blog/issues/59)
 
 * 源码进阶系列
 
@@ -123,7 +123,9 @@
 
 ## Node、DevOps、Linux
 
-* node
+* Node
+    * [Node 模块机制之require源码](https://github.com/amandakelake/blog/blob/master/Node/require.md)
+    * [Node 多进程与多线程、cluster](https://github.com/amandakelake/blog/blob/master/Node/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
 
 * DevOps
     * [Vue SSR 持续集成部署（CI/CD）：Travis + PM2 自动化部署 Node 应用](https://github.com/amandakelake/blog/issues/104)

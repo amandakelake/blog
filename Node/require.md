@@ -369,9 +369,9 @@ ES6 Modules加载原理：遇到模块加载命令`import`时，不会去执行�
 
 
 ## Reference
-[Modules: CommonJS modules | Node.js v15.8.0 Documentation](https://nodejs.org/api/modules.html#modules_all_together) Node官方文档
-《深入浅出NodeJS》— 朴灵
-[彻底搞懂 Node.js 中的 Require 机制(源码分析到手写实践)](https://mp.weixin.qq.com/s/M8KyGY_PjtxcvFrGb8cbww)
-[require() 源码解读 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/05/require.html)
-[JavaScript 模块的循环加载 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/11/circular-dependency.html)
-[Node.js 如何处理 ES6 模块 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2020/08/how-nodejs-use-es6-module.html)
+* [Modules: CommonJS modules | Node.js v15.8.0 Documentation](https://nodejs.org/api/modules.html#modules_all_together) Node官方文档
+* 《深入浅出NodeJS》— 朴灵
+* [彻底搞懂 Node.js 中的 Require 机制(源码分析到手写实践)](https://mp.weixin.qq.com/s/M8KyGY_PjtxcvFrGb8cbww)
+* [require() 源码解读 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/05/require.html)
+* [JavaScript 模块的循环加载 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/11/circular-dependency.html)
+* [Node.js 如何处理 ES6 模块 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2020/08/how-nodejs-use-es6-module.html)
