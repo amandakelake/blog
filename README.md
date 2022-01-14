@@ -147,14 +147,11 @@
 * [装饰者模式+ES7 Decorator](https://github.com/amandakelake/blog/issues/66)
 * [单例模式](https://github.com/amandakelake/blog/issues/68)
 
-
-
 ## Algorithm
 
 * [《学习JavaScript数据结构与算法》读书笔记](https://github.com/amandakelake/blog/blob/master/Algorithm/Learn%20Javascript%20Data%20Structures%20and%20Algorithms/JS%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95.pdf)
-* [Javascript基础算法——排序与搜索](https://github.com/amandakelake/blog/issues/4)
-
-
+* [JS实现基础数据结构(栈、队列、单双链表、二叉搜索树)](https://github.com/amandakelake/blog/blob/master/Algorithm/Learn%20Javascript%20Data%20Structures%20and%20Algorithms/js-data-structure.md)
+* [JS实现基础排序和搜索算法](https://github.com/amandakelake/blog/blob/master/Algorithm/Learn%20Javascript%20Data%20Structures%20and%20Algorithms/sort-search.md)
 
 ## HTML、CSS
 
