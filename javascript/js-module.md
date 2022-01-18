@@ -14,7 +14,7 @@ var exports = module.exports
 ```
 
 模块导出与引用
-```js
+```jso
 // common-js-a.js 暴露模块
 // 默认加了一行 var exports = module.exports
 exports.a = 'hello world';
