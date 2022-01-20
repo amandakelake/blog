@@ -17,7 +17,7 @@ var reverseList1 = function(head) {
     return pre;
 };
 
-// 迭代法
+// 递归法
 var reverseList = function(head) {
     if (!head || !head.next) {
         return head;
