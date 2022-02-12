@@ -45,6 +45,7 @@ Function.prototype.bind = function (context) {
     var args = [...arguments].slice(1);
 
     return function Fn() {
+        // 判断是否用于构造函数
         if (this instanceof Fn) {
             return new _this(args, ...arguments);
         }
