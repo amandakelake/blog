@@ -474,6 +474,24 @@ nextTick的降级策略，先微任务，再降级到宏任务
 
 #### Vue响应式对数组的处理
 
+
+
+###### 为什么vue2中监听不到数组的变化？
+
+
+
+并不是因为 `Object.defineProperty`的问题，它本身对数组的表现跟对象是一致的，数组的索引就可以看做`key`来使用，它本身有监控数组下标变化的能力
+
+其实是vue2中放弃了这个特性，在`Observer`中不会对数组进行`walk`处理去遍历所有属性，而是进行了特殊处理
+![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202202121014580.png)
+
+按照祖师爷的说法是：性能问题，性能代价和获得的用户体验收益不成正比
+![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202202121009343.png)
+![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202202121010077.png)
+具体可参考[为什么vue没有提供对数组属性的监听](https://github.com/vuejs/vue/issues/8562)
+
+###### 实际处理
+
 改写数组的push、pop等8个方法，让他们在执行之后通知数组更新了，缺点： [参见官网](http://v1-cn.vuejs.org/guide/list.html#%E9%97%AE%E9%A2%98) ）
 * 不能直接修改数组的长度 `this.list.length = 0`
 * 通过下标去修改数组 `this.list[1] = 'a'`
