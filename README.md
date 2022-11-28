@@ -82,8 +82,6 @@
 * vue
     * [转Vue 3前再读一次Vue2源码](https://github.com/amandakelake/blog/blob/master/Framework/vue/vue2%E6%BA%90%E7%A0%81.md)
     * [Vue 响应式原理](https://github.com/amandakelake/blog/issues/63)
-    * [Vue 源码阅读【1】—— Vue本质](https://github.com/amandakelake/blog/issues/56)
-    * [Vue 源码阅读【2】—— 数据驱动](https://github.com/amandakelake/blog/issues/57)
     * [【译】VueJS 最佳实践](https://github.com/amandakelake/blog/issues/69)
     
 * react
@@ -120,26 +118,25 @@
     * [【webpack进阶系列(八)】写个 loader](https://github.com/amandakelake/blog/issues/90)
 
 
+## Node
+* [Node 模块机制之require源码](https://github.com/amandakelake/blog/blob/master/Node/require.md)
+* [Node 多进程与多线程、cluster](https://github.com/amandakelake/blog/blob/master/Node/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
 
-## Node、DevOps、Linux
+## DevOps、Linux
+* [Vue SSR 持续集成部署（CI/CD）：Travis + PM2 自动化部署 Node 应用](https://github.com/amandakelake/blog/issues/104)
+* [☁️服务器初始化](https://github.com/amandakelake/blog/issues/102)
+* [Virtualbox + Vagrant 管理虚拟机 -> 榨干Mac Pro的32G内存](https://github.com/amandakelake/blog/blob/master/Engineering/vagrant.md)
+  
 
-* Node
-    * [Node 模块机制之require源码](https://github.com/amandakelake/blog/blob/master/Node/require.md)
-    * [Node 多进程与多线程、cluster](https://github.com/amandakelake/blog/blob/master/Node/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
+* [Docker快速入门](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
+* [Docker运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
+* [Kubernetes 集群搭建](https://github.com/amandakelake/blog/blob/master/Engineering/docker/k8s.md)
+  
 
-* DevOps
-    * [Vue SSR 持续集成部署（CI/CD）：Travis + PM2 自动化部署 Node 应用](https://github.com/amandakelake/blog/issues/104)
-    * [买了☁️服务器后，第一步要干啥。。。？](https://github.com/amandakelake/blog/issues/102)
-    * [Linux基础之文件权限](https://github.com/amandakelake/blog/issues/103)
-    * [Vim 基础操作](https://github.com/amandakelake/blog/blob/master/Engineering/vim/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C.md)
-    * [Docker基础认识](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
-    * [Docker 运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
-* other
-    * [mongoDB基础](https://github.com/amandakelake/blog/blob/master/Node/DB/MongoDB%E5%9F%BA%E7%A1%80.md)
-    * [快速上手node+express+MongoDB](https://github.com/amandakelake/blog/blob/master/Node/DB/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8BNode%2Bexpress%2BmongoDB.md)
-    * [Express + create-react-app 快速构建前后端开发环境](https://github.com/amandakelake/blog/blob/master/Framework/react/Express%20%2B%20create-react-app%20%E5%BF%AB%E9%80%9F%E6%9E%84%E5%BB%BA%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
-
-
+* [【Linux基础】文件权限](https://github.com/amandakelake/blog/issues/103)
+* [【Linux基础】Vim 基础操作](https://github.com/amandakelake/blog/blob/master/Engineering/vim/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C.md)
+* [【Linux基础】cat + EOF 快速编辑文本](https://github.com/amandakelake/blog/blob/master/Engineering/linux/cat-EOF.md)
+  
 ## Javascript Design Pattern
 
 * [随手实现一个订阅-发布模式](https://github.com/amandakelake/blog/issues/65)

@@ -311,7 +311,9 @@ service/nginx        NodePort    10.100.2.154   <none>        80:32021/TCP   47m
 ```
 
 这时候访问 `[master IP]:[端口]` -> `192.168.31.191:32021`会发现访问不了
+
 甚至ping一下各个节点由flannel分配的ip -> `ping 10.100.2.154`也发现无法访问
+
 节点间无法通信？？？
 
 ## 四、浏览器无法访问
@@ -350,10 +352,13 @@ kubectl apply -f kube-flannel.yml
 
 ## 参考
 [Kubernetes安装配置指南](https://mp.weixin.qq.com/s?__biz=MzA5Mjc1MjEwMg==&mid=2452395461&idx=1&sn=970236861faefd9a14f2ec13ce03e780&chksm=87b0644cb0c7ed5a486ac93f49eaf60e6e9d347a1ac86b1f51c72b152306246cc892f746b071&token=1780604434&lang=zh_CN#rd) 很清晰
+
 [部署Kubernetes(k8s)时，为什么要关闭swap、selinux、firewalld？ - 知乎](https://www.zhihu.com/question/374752553)
 
 [从零开始在ubuntu上安装和使用k8s集群及报错解决 — 浮云的博客](https://last2win.com/2020/01/30/k8s-install-and-use-and-fix-bug/#k8s-1) 部署踩坑
+
 [Kubernetes_02_从零开始搭建k8s集群（亲测可用）_毛奇志的技术博客_51CTO博客](https://blog.51cto.com/u_15287666/5780765) 前人经验
+
 [公网K8S搭建](https://shimo.im/docs/gO3oxnybjbFBg9qD/read) 这篇参考了上面这篇
 
 [Vagrant学习笔记：搭建K8s集群 - 知乎](https://zhuanlan.zhihu.com/p/563193623) 抽出`common.sh、master.sh、node.sh`三份文件，用sh脚本替代重复性工作，思路值得学习
