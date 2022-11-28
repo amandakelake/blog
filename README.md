@@ -55,12 +55,10 @@
 * [【性能优化】手把手实现图片懒加载](https://github.com/amandakelake/blog/issues/46)
 * [【性能优化】图片优化——总览](https://github.com/amandakelake/blog/issues/48)
 
-
-* [缓存（一）——缓存总览：从性能优化的角度看缓存](https://github.com/amandakelake/blog/issues/43)
-* [缓存（二）——浏览器缓存机制：强缓存、协商缓存](https://github.com/amandakelake/blog/issues/41)
-* [缓存（三）——数据存储：cookie、Storage、indexedDB](https://github.com/amandakelake/blog/issues/13)
-* [缓存（四）——离线应用缓存：App Cache => Manifest](https://github.com/amandakelake/blog/issues/15)
-
+* [【缓存-01】——缓存总览：从性能优化的角度看缓存](https://github.com/amandakelake/blog/issues/43)
+* [【缓存-02】——浏览器缓存机制：强缓存、协商缓存](https://github.com/amandakelake/blog/issues/41)
+* [【缓存-03】——数据存储：cookie、Storage、indexedDB](https://github.com/amandakelake/blog/issues/13)
+* [【缓存-04】——离线应用缓存：App Cache => Manifest](https://github.com/amandakelake/blog/issues/15)
 
 * [深入了解HTTP/2的前世今生以及Web性能优化总结](https://github.com/amandakelake/blog/issues/35)
 * [GET和POST：辩证看100 continue，以及最根本区别](https://github.com/amandakelake/blog/issues/20)
@@ -69,7 +67,6 @@
 * [TCP与UDP对比](https://github.com/amandakelake/blog/issues/47)
 * [CORS 简单请求+预检请求（理解HTTP跨域原理）](https://github.com/amandakelake/blog/issues/62)
 * [前端跨域常用方法](https://github.com/amandakelake/blog/issues/17)
-  
 
 * [canvas+vue实现60帧每秒的抢金币动画（类天猫红包雨）](https://github.com/amandakelake/blog/issues/70)
 * [canvas合成图片海报、分享，小坑记录](https://github.com/amandakelake/blog/issues/72)
@@ -126,13 +123,9 @@
 * [Vue SSR 持续集成部署（CI/CD）：Travis + PM2 自动化部署 Node 应用](https://github.com/amandakelake/blog/issues/104)
 * [☁️服务器初始化](https://github.com/amandakelake/blog/issues/102)
 * [Virtualbox + Vagrant 管理虚拟机 -> 榨干Mac Pro的32G内存](https://github.com/amandakelake/blog/blob/master/Engineering/vagrant.md)
-  
-
 * [Docker快速入门](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
 * [Docker运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
 * [Kubernetes 集群搭建](https://github.com/amandakelake/blog/blob/master/Engineering/docker/k8s.md)
-  
-
 * [【Linux基础】文件权限](https://github.com/amandakelake/blog/issues/103)
 * [【Linux基础】Vim 基础操作](https://github.com/amandakelake/blog/blob/master/Engineering/vim/vim%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C.md)
 * [【Linux基础】cat + EOF 快速编辑文本](https://github.com/amandakelake/blog/blob/master/Engineering/linux/cat-EOF.md)
