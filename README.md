@@ -113,6 +113,7 @@
 
 ## DevOps、Linux
 * [【CI/CD】Travis、PM2、Vue SSR 自动化部署Node应用](https://github.com/amandakelake/blog/issues/104)
+* [【CI/CD】虚拟机搭建Jenkins+Docker+Github环境，实现自动部署](https://github.com/amandakelake/blog/blob/master/Engineering/cicd-jenkins.md)
 * [【Docker】快速入门](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E5%9F%BA%E7%A1%80.md)
 * [【Docker】运行Node.js应用](https://github.com/amandakelake/blog/blob/master/engineering/docker/docker%E8%BF%90%E8%A1%8Cnode%E5%BA%94%E7%94%A8.md)
 * [【Kubernetes】集群搭建](https://github.com/amandakelake/blog/blob/master/Engineering/docker/k8s.md)
