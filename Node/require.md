@@ -1,10 +1,8 @@
-Node模块机制之require源码
+# 【Node核心模块】Module与CommonJS
 
 CommonJS规范为Javascript制定了一个美好的愿景——希望Javascript能够在任何地方运行
 
-
-## CommonJS规范
-
+## 一、CommonJS规范
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201131329023.png)
 
 在Node中，一个文件就是一个模块，每个模块拥有独立的作用域、变量、方法
@@ -13,20 +11,19 @@ CommonJS规范为Javascript制定了一个美好的愿景——希望Javascript�
 * 通过`require`方法来引入模块
 * 提供了`exports`对象来导出当前模块的变量或者方法
 
-## 模块的分类
+## 二、模块的分类
 在Node中，模块分为两大类
 * 核心(原生)模块：Node提供的
-* 内建模块：由纯`C/C++`编写提供的
-* 全局模块：Node启动时，生成的全局变量，比如`process`
+    * 内建模块：由纯`C/C++`编写提供的，也叫`built-in`模块
+    * 全局模块：Node启动时，生成的全局变量，比如`process`
 * 文件模块：用户编写的模块
-* 普通模块：`node_modules`下的模块，或者用户自己编写的文件
-* 外部编写的`C++`模块
+    * 普通模块：`node_modules`下的模块，或者用户自己编写的文件
+    * 外部编写的`C++`模块
 
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202201131329718.png)
 
 
-
-## `require` 伪代码算法
+## 三、`require` 伪代码算法
 在读源码之前，先看看官方文档关于`require`的内部实现，写的非常详细了
 [Modules: CommonJS modules | Node.js v15.8.0 Documentation](https://nodejs.org/api/modules.html#modules_all_together)
 ```shell
@@ -73,18 +70,20 @@ require(X) from module at path Y
 * `/home/dir1/node_modules/b`
 * `/home/node_modules/b`
 * `/node_modules/b`
+
 搜索每个目录时，先把bar当成文件来查找，依次查找以下文件
 * `b`
 * `b.js`
 * `b.json`
 * `b.node`
+
 如果都找不到，就把b当做目录来查找，依次加载以下文件
 * `b/package.json`里面的`main`字段代表的文件
 * `b/index.js`
 * `b/index.json`
 * `b/index.node`
 
-## module是什么
+## 四、module是什么
 建个`index.js`文件，然后打印`console.log(module)`，运行输出如下
 ```shell
 # console.log(module)
@@ -109,7 +108,9 @@ Module {
 }
 ```
 
-## Module源码
+## 五、源码阅读
+
+#### 5.1 Module
 先把node源码clone一份到本地 [GitHub - nodejs/node](https://github.com/nodejs/node)
 用IDE可以直接找到`Module`定义的地方 `lib/internal/modules/cjs/loader.js`
 
@@ -133,7 +134,7 @@ Module._extensions = ObjectCreate(null); // 创建一个扩展名对象（跟上
 
 `Module`的初始化并不复杂，根据打印出来的内容，对应一下就了解了
 
-## require源码
+#### 5.2、require源码
 每个模块实例都有一个`require`方法，挂在`Module.prototype`上，还是在`lib/internal/modules/cjs/loader.js`
 ```js
 Module.prototype.require = function(id) {
@@ -159,6 +160,7 @@ Module._load = function(request, parent, isMain) {
 
     // 4、实例化Module，并存入缓存(此时缓存也是空的)
     const module = cachedModule || new Module(filename, parent);
+	  // 注意这里，先存入缓存，再开始下面的执行模块
     Module._cache[filename] = module;
     
     
@@ -184,7 +186,7 @@ module.load(filename); # 加载模块
 ```
 
 
-## 计算模块路径 Module._resolveFilename
+#### 5.3 计算模块路径 Module._resolveFilename
 ```js
 Module._resolveFilename = function(request, parent, isMain, options) {
     // 如果是内置模块，直接返回request，也就是从最开始传入的 id
@@ -249,7 +251,7 @@ Module._findPath = function(request, paths, isMain) {
 };
 ```
 
-## 加载模块 module.load()
+#### 5.4 加载模块 module.load()
 找到模块的绝对路径，就可以开始加载模块了，再回到`module.load()`方法
 ```js
 Module.prototype.load = function(filename) {
@@ -281,11 +283,10 @@ Module._extensions['.json'] = function(module, filename) {
 `.json`文件的处理比较简单，直接`JSONParse`就完事了，有异常就抛出
 重点看一下`.js`文件的处理
 
-## 加载 `.js` 模块
+#### 5.4 加载 `.js` 模块
 首先通过`fs.readFileSync`同步读取文件内容，然后执行`module._compile`
 ```js
 Module.prototype._compile = function(content, filename) {
-	  // 
     const compiledWrapper = wrapSafe(filename, content, this);
     const require = makeRequireFunction(this, redirects);
     let result;
@@ -306,7 +307,7 @@ Module.prototype._compile = function(content, filename) {
 ```
 这一段本质上是利用node的虚拟机模块`vm`的`runInThisContext`方法将字符串（文件内容）编译成一个函数，将`exports属性、require方法、module（模块对象本身）、__filename、__dirname`等变量作为参数传递给这个函数执行，注入到模块上下文
 
-## 返回结果
+#### 5.5 返回结果
 再回到最上面的`Module._load`中，`return module.exports;`
 
 模块可以任意修改`module.exports`的值作为最终输出结果
@@ -356,16 +357,73 @@ module Module {
 
 可以看到模块的值依然是 `{ a: 1 }`，exports的引用更改并不会修改模块本身的值
 
-## 总结
-以上的流程，简单总结起来
-```bash
-Resolution (解析) –> Loading (加载) –> Wrapping (私有化) –> Evaluation (执行) –> Caching (缓存)
+## 六、CommomJS模块加载机制总结
+Node模块加载机制：Resolution (解析) –> Loading (加载) –> Wrapping (私有化) –> Evaluation (执行) –> Caching (缓存)
+
+总结起来是3个步骤
+* 路径分析
+* 文件定位
+* 编译执行
+
+在执行代码前，Node会对JS内容进行封装隔离运行
+```js
+(function (exports, require, module, __filename, __dirname) {
+  // 模块源码
+	exports.[xxx] = fn
+});
 ```
 
-## 题外：CommonJS和ES6 Modules的循环引用问题
-CommonJS循环引用原则：一旦出现某个模块被`循环引用`，就只输出已经执行的部分，还未执行的部分不会输出
+CommomJS的一个模块就是一个脚本文件，`require`命令第一次加载脚本，就会执行该脚本，然后在内存生成一个对象，同时生成缓存`Module`，之后再加载该模块，都是返回第一次运行的结果，除非手动清除系统缓存
+
+## 七、循环加载问题
+CommomJS模块最重要的特性是**加载时执行**，即脚本代码在`require`的时候就全部执行
+
+CommonJS循环引用原则：一旦出现某个模块被循环引用，就只输出已经执行的部分，还未执行的部分不会输出
+
+看个官方的例子 [Modules: CommonJS modules | Node.js v19.2.0 Documentation](https://nodejs.org/api/modules.html#modules_cycles)
+```js
+// a.js文件
+console.log('a starting');
+exports.done = false;
+const b = require('./b.js');
+console.log('in a, b.done = %j', b.done);
+exports.done = true;
+console.log('a done');
+
+// b.js 文件
+console.log('b starting');
+exports.done = false;
+const a = require('./a.js');
+console.log('in b, a.done = %j', a.done);
+exports.done = true;
+console.log('b done');
+
+// main.js 文件
+console.log('main starting');
+const a = require('./a.js');
+const b = require('./b.js');
+console.log('in main, a.done = %j, b.done = %j', a.done, b.done);
+```
+
+然后执行`node main.js`，输出如下
+```sh
+$ node main.js                
+main starting
+a starting
+b starting
+in b, a.done = false
+b done
+in a, b.done = true
+a done
+in main, a.done = true, b.done = true
+```
+
 
 ES6 Modules加载原理：遇到模块加载命令`import`时，不会去执行模块，而是生成一个引用，等到真正需要用时，再到模块内去取值，因此ES6模块是动态引用，不存在缓存值的问题，而且模块里面的变量，绑定其所在的模块
+
+* CommomJS 输出的是值的拷贝，一旦输出值，模块内部的变化影响不到这个值（会被缓存），除非写成函数去读取内部的值
+* ES6 Module 输出的是只读引用，等到脚本真正执行时，再根据引用去被加载的模块里取值，可以理解为动态引用，有点像Linux的符号连接
+    * ESM的优势：借助静态导入导出，实现了`tree shaking`；可通过`import()`懒加载的方式实现代码分割
 
 
 ## Reference
@@ -375,3 +433,4 @@ ES6 Modules加载原理：遇到模块加载命令`import`时，不会去执行�
 * [require() 源码解读 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/05/require.html)
 * [JavaScript 模块的循环加载 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2015/11/circular-dependency.html)
 * [Node.js 如何处理 ES6 模块 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2020/08/how-nodejs-use-es6-module.html)
+* [「万字进阶」深入浅出 Commonjs 和 Es Module - 掘金](https://juejin.cn/post/6994224541312483336#heading-23)
