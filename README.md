@@ -101,6 +101,7 @@
 * [【规范】Eslint+Prettier+git hook -> make your life easier](https://github.com/amandakelake/blog/issues/59)
 
 ## Node、Server
+* [【NodeJS】部署高性能的Node服务](https://github.com/amandakelake/blog/blob/master/Node/%E9%83%A8%E7%BD%B2%E9%AB%98%E6%80%A7%E8%83%BD%E5%BA%94%E7%94%A8.md)
 * [【NodeJS】模块机制之require源码](https://github.com/amandakelake/blog/blob/master/Node/require.md)
 * [【NodeJS】多进程与多线程、cluster](https://github.com/amandakelake/blog/blob/master/Node/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E4%B8%8E%E5%A4%9A%E7%BA%BF%E7%A8%8B.md)
 
